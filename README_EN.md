@@ -17,6 +17,9 @@
 
 </div>
 
+> [!IMPORTANT]
+> **Maintenance status: this repository's macOS adaptation is no longer maintained.** The repository remains available as a historical implementation and discussion archive; development of Numen Bridge has stopped. DashScope voice support and several related fixes were reimplemented upstream on the current codebase. See [Dwinovo/minecraft-numen#36](https://github.com/Dwinovo/minecraft-numen/pull/36) for the background and maintainer decision.
+
 <p align="center">
   <img src="docs/numen-demo.gif" alt="Numen in action: chopping · mining · crafting · combat · Mekanism" width="640">
 </p>
@@ -113,6 +116,12 @@ Every mod you can name, the AI can play. It's a big promise — but every brick 
 2. **Add your API key.** Press **`G`** → **Settings**, pick a provider, and paste your own key (OpenAI, DeepSeek, Kimi, Qwen, Doubao… any OpenAI-compatible backend works).
 3. **Summon a companion.** Click the **`+`** in the panel's left rail, give it a name, hit Enter.
 4. **Click its avatar to chat**, and tell it what to do. The rest is on it.
+
+### Microphone access on macOS
+
+For voice input on macOS, **launch Minecraft through [Prism Launcher](https://prismlauncher.org/)**. Prism Launcher allows Minecraft to request microphone permission from macOS. Choose **Allow** when prompted the first time, and verify access under **System Settings → Privacy & Security → Microphone** if necessary.
+
+Prism Launcher provides the macOS **microphone permission declaration and authorization path**; it does not provide speech recognition, DashScope, or another STT service. Audio capture and transcription still belong to Numen and its configured speech backend. See [PR #36](https://github.com/Dwinovo/minecraft-numen/pull/36) for the Numen Bridge discussion and upstream outcome, and the [Simple Voice Chat macOS microphone guide](https://modrepo.de/minecraft/voicechat/wiki/macos) for launcher compatibility details.
 
 > The panel (press `G`) has three tabs: **Chat** (conversation + a live plan board), **Items** (a read-only character sheet styled like the vanilla inventory), and **Settings** (key and model). The left rail *is* your companion roster — click an avatar to switch, **`+`** to summon, **`✕`** to dismiss; you barely need commands at all. A small avatar HUD hugs the left screen edge, too — when a companion speaks, its avatar and a speech bubble slide out together.
 
