@@ -17,6 +17,9 @@
 
 </div>
 
+> [!IMPORTANT]
+> **维护状态：本仓库的 macOS 适配项目已停止维护。** 本仓库仅保留历史实现与讨论，不再继续开发 Numen Bridge。DashScope 语音能力及部分相关修复已由上游在新基线上重新实现；背景与维护者结论见 [Dwinovo/minecraft-numen#36](https://github.com/Dwinovo/minecraft-numen/pull/36)。
+
 <p align="center">
   <img src="docs/numen-demo.gif" alt="Numen 实机演示：砍树 · 挖矿 · 合成 · 战斗 · 联动 Mekanism" width="640">
 </p>
@@ -113,6 +116,12 @@ Minecraft 真正的宇宙在模组里：机械动力（Create）的齿轮传动�
 2. **填入 API key。** 按 **`G`** → **设置**，选 provider，粘贴你自己的 key（OpenAI、DeepSeek、Kimi、Qwen、豆包…… 任意 OpenAI 兼容后端都行）。
 3. **召唤一个同伴。** 点面板左栏的 **`+`**，给它起个名字，回车。
 4. **点它的头像开聊**，把要做的事告诉它。剩下的，交给它。
+
+### macOS 麦克风
+
+在 macOS 上使用语音输入时，**推荐通过 [Prism Launcher](https://prismlauncher.org/) 启动 Minecraft**。Prism Launcher 能够让 Minecraft 向 macOS 请求麦克风权限；首次使用时，请在系统弹窗中选择“允许”，并可在 **系统设置 → 隐私与安全性 → 麦克风** 中检查权限。
+
+Prism Launcher 解决的是 macOS 的**麦克风权限声明与授权入口**，它本身不提供语音识别、DashScope 或其他 STT 服务；录音与语音识别仍由 Numen 及其配置负责。相关背景、macOS Bridge 的取舍和上游处理结果见 [PR #36](https://github.com/Dwinovo/minecraft-numen/pull/36)。更多启动器兼容信息可参考 [Simple Voice Chat 的 macOS 麦克风权限指南](https://modrepo.de/minecraft/voicechat/wiki/macos)。
 
 > 按 `G` 的面板有三页：**Chat**（聊天 + 实时计划面板）、**Items**（一张仿原版背包的只读角色卡）、**Settings**（填 key 和模型）。左栏就是同伴名册——点头像切换、点 **`+`** 召唤、点 **`✕`** 注销，基本不用敲指令。左边缘还有个小头像 HUD——它说话时，头像和气泡会一起滑出来。
 
