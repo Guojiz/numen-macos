@@ -1,3 +1,16 @@
+<p align="center">
+  <a href="https://guojiz.github.io/"><img alt="官网" src="https://img.shields.io/badge/官网-guojiz.github.io-111111?style=flat-square"></a>
+  <a href="https://github.com/Guojiz/Sponsors"><img alt="赞助" src="https://img.shields.io/badge/赞助-支持-111111?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="https://guojiz.github.io/"><strong>作者官网</strong></a>
+  · <a href="https://x.com/guojizh">X</a>
+  · <a href="https://space.bilibili.com/3493114115263006">哔哩哔哩</a>
+  · <a href="https://youtube.com/@guojizh">YouTube</a>
+  · <a href="https://github.com/Guojiz/Sponsors">赞助</a>
+</p>
+
 <div align="center">
 
 # Numen · 言出法随
@@ -197,3 +210,26 @@ Numen 还很年轻。原版玩法已经跑得很顺；而"让 AI 通达整个模
 <sub>喂给大模型的<b>空间感知表征</b>采用「自我中心的语义字符网格」而非裸坐标列表：把玩家周围的体素离散化、语义 pooling 成以自身为中心的字符矩阵。该表征形式的有效性依据 Gao 等，<i>Exploring Spatial Representation to Enhance LLM Reasoning in Aerial Vision-Language Navigation</i>（arXiv:2410.08500, 2024）——其消融实验表明，同为文本输入时，语义-拓扑-度量的网格矩阵显著优于拓扑图与方向距离描述，亦远优于直接输入图像。Numen 取其「egocentric + 离散化 + 语义 pooling」的格式原则，并针对方块世界的竖直性做三维适配（分层切片 / 高度信息）。</sub>
 
 </div>
+
+## 官网与其它推广
+
+这个仓库可以没有独立产品站。对外入口是作者官网、本 GitHub 仓库，以及下面这些项目。
+
+| | |
+| --- | --- |
+| **作者官网** | https://guojiz.github.io/ |
+| **X** | https://x.com/guojizh |
+| **哔哩哔哩** | https://space.bilibili.com/3493114115263006 |
+| **YouTube** | https://youtube.com/@guojizh |
+| **赞助** | https://github.com/Guojiz/Sponsors |
+
+### 其它开源项目
+
+- [GitLearnOS](https://guojiz.github.io/gitlearnos/) — 学习者拥有的 Git 记忆
+- [Word Snap](https://guojiz.github.io/word-snap/) — 双语单词匹配
+- [AI Subtitle Extractor](https://github.com/Guojiz/ai-subtitle-extractor)
+- [Design Master](https://github.com/Guojiz/design-master)
+- [AI Video Studio](https://github.com/Guojiz/comfyui-minimax-h3-studio)
+- [llm-provider-compat](https://github.com/Guojiz/llm-provider-compat)
+- [Claude Desktop Tweak Models](https://github.com/Guojiz/claude-desktop-tweak-models)
+- 全部项目：[github.com/Guojiz](https://github.com/Guojiz)

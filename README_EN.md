@@ -1,3 +1,16 @@
+<p align="center">
+  <a href="https://guojiz.github.io/"><img alt="Website" src="https://img.shields.io/badge/website-guojiz.github.io-111111?style=flat-square"></a>
+  <a href="https://github.com/Guojiz/Sponsors"><img alt="Sponsor" src="https://img.shields.io/badge/sponsor-support-111111?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="https://guojiz.github.io/"><strong>Author website</strong></a>
+  · <a href="https://x.com/guojizh">X</a>
+  · <a href="https://space.bilibili.com/3493114115263006">Bilibili</a>
+  · <a href="https://youtube.com/@guojizh">YouTube</a>
+  · <a href="https://github.com/Guojiz/Sponsors">Sponsor</a>
+</p>
+
 <div align="center">
 
 # Numen · 言出法随
@@ -195,3 +208,26 @@ Contributions, skill submissions, and compat experiments are all welcome. This i
 <sub>The <b>planning layer</b> implements techniques from the heuristic-search literature: weighted A* with budgeted partial-path commitment (on search timeout the best partial path across several heuristic-coefficient tiers is committed), with game-independent unit tests. The <b>path-following layer</b> advances movement primitive by movement primitive along the computed path: windowed backward/forward relocation, seamless segment splicing and over-length cutoff, in-flight cost re-verification with an off-path watchdog, plus a set of sprint-decision heuristics. The <b>execution layer</b> differs from <a href="https://github.com/cabaletta/baritone">Baritone</a> fundamentally in where it runs: Baritone is a client-side mod driving the local player, while Numen drives a <b>server-side fake player</b> — movement, digging and placement all go through server APIs. It draws on Baritone's publicly documented mechanics for design ideas only; <b>no source was copied, ported, or adapted from it</b>. Numen's code is licensed LGPL-3.0 of its own accord; that choice is not a consequence of Baritone (which is also LGPL-3.0).</sub>
 
 </div>
+
+## Website and other links
+
+No separate product site is required for this repository. The public face of the work is the author website, this GitHub repo, and the projects below.
+
+| | |
+| --- | --- |
+| **Author website** | https://guojiz.github.io/ |
+| **X** | https://x.com/guojizh |
+| **Bilibili** | https://space.bilibili.com/3493114115263006 |
+| **YouTube** | https://youtube.com/@guojizh |
+| **Sponsor** | https://github.com/Guojiz/Sponsors |
+
+### Other open-source projects
+
+- [GitLearnOS](https://guojiz.github.io/gitlearnos/) — learner-owned Git memory
+- [Word Snap](https://guojiz.github.io/word-snap/) — bilingual vocabulary matching
+- [AI Subtitle Extractor](https://github.com/Guojiz/ai-subtitle-extractor)
+- [Design Master](https://github.com/Guojiz/design-master)
+- [AI Video Studio](https://github.com/Guojiz/comfyui-minimax-h3-studio)
+- [llm-provider-compat](https://github.com/Guojiz/llm-provider-compat)
+- [Claude Desktop Tweak Models](https://github.com/Guojiz/claude-desktop-tweak-models)
+- All projects: [github.com/Guojiz](https://github.com/Guojiz)
